@@ -1,0 +1,32 @@
+.ene ul {
+    list-style-type: none;
+    display: flex;
+    margin :1%; 
+    text-align: left;
+     padding: auto; 
+    gap: 10px;
+  }
+  
+  .ene{
+    display: flex;
+    flex-direction: row;
+    background: #ececec;
+    width: 100%;
+  }
+  ul.demo1 {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    padding: 0;
+    margin-top: 5px;
+  }
+
+  @media only screen and (max-width: 767px) {
+  .ene{
+    display: flex;
+    flex-direction: column;
+
+
+  }
+  }
+ 
